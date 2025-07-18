@@ -35,7 +35,7 @@ const Navbar = () => {
           </div>
 
           {/* Login Button (Right) */}
-          <a href="LoginModal" className="z-10">
+          <a href="ModalController" className="z-10">
             <button className="bg-blue-600 text-white px-4 py-1.5 rounded-md text-sm font-medium hover:bg-blue-700 transition-all hover:shadow-md hover:shadow-blue-100">
               Login
             </button>
@@ -70,7 +70,7 @@ const Navbar = () => {
 
           {/* Login */}
           <button className="bg-blue-600 text-white px-6 py-2.5 rounded-lg hover:bg-blue-700 text-sm font-medium transition-all hover:shadow-lg hover:shadow-blue-100">
-            <a href="LoginModal">Login</a>
+            <a href="ModalController">Login</a>
           </button>
 
         </div>
